@@ -22,12 +22,8 @@ const SignUp = () => {
         else if(password.length < 6){
             setError('password must be at least 6 characters long.');
             return;
-
         }
-
     }
-
-
 
     return (
         <div className='form-container'>
